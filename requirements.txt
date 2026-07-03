@@ -7,3 +7,4 @@ timm
 plotly
 pandas
 pillow
+rfdetr
