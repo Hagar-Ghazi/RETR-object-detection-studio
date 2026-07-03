@@ -207,48 +207,38 @@ This application is fully compatible with cloud containers like **Lightning.ai**
 4.  Launch the app: `streamlit run app.py --server.port 8501 --server.address 0.0.0.0`
 5.  Open port `8501` in the **Ports** panel to view the live dashboard
 
-### 📷 1. Dashboard Overview & Configuration
-*Configure model engine backends, sizes, confidence thresholds, and visual boundary parameters directly from the sidebar. The main layout displays the input source selection and active performance cards.*
+
 <p align="center">
   <img src="assets/App%20image1.png" width="95%" alt="Dashboard Overview & Configuration" />
 </p>
 
 ---
 
-### 📷 2. Real-time Object Detection Output
-*Run models locally or in the cloud. Bounding boxes are rendered with soft, class-keyed color palettes and transparent fills to keep the visual output clean and readable.*
 <p align="center">
   <img src="assets/App%20image2.png" width="95%" alt="Real-time Object Detection Output" />
 </p>
 
 ---
 
-### 📷 3. Crop & Inspect Zoom Patches
-*Click into individual detected objects. The app automatically isolates and crops each bounding box, arranging them in a responsive card grid with class-specific borders for close-up verification.*
 <p align="center">
   <img src="assets/App%20image3.png" width="95%" alt="Crop & Inspect Zoom Patches" />
 </p>
 
 ---
 
-### 📷 4. Model Benchmarking & Latency Stats
-*Compare execution metrics side-by-side. View total objects detected, category distribution histograms (Plotly), and exact bounding box coordinate dataframes.*
 <p align="center">
   <img src="assets/App%20image4.png" width="95%" alt="Model Benchmarking & Latency Stats" />
 </p>
 
 ---
 
-### 📷 5. Detailed Detections Analysis
-*Browse target class counts and export options. You can download the complete annotated JPEG output or export coordinate details as structured CSV/JSON files.*
+
 <p align="center">
   <img src="assets/App%20image5.png" width="95%" alt="Detailed Detections Analysis" />
 </p>
 
 ---
 
-### 📷 6. Interactive Detection Workspace
-*Upload custom files or select from pre-loaded sample images. Threshold modifications in the sidebar trigger hot-reloading overlays instantly.*
 <p align="center">
   <img src="assets/App%20image6.png" width="95%" alt="Interactive Detection Workspace" />
 </p>
