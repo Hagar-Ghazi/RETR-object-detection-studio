@@ -15,6 +15,17 @@
 
 </div>
 
+<p align="center">
+  <img src="assets/App%20image1.png" width="31%" alt="Dashboard Overview" />
+  <img src="assets/App%20image2.png" width="31%" alt="Bounding Box Detections" />
+  <img src="assets/App%20image3.png" width="31%" alt="Analytics & Plotly Frequency Charts" />
+</p>
+<p align="center">
+  <img src="assets/App%20image4.png" width="31%" alt="Object Crop & Inspect Grid" />
+  <img src="assets/App%20image5.png" width="31%" alt="Model Configuration & Metrics" />
+  <img src="assets/App%20image6.png" width="31%" alt="Class Frequency Statistics" />
+</p>
+
 ---
 
 ## 1. Project Overview & Rationale
