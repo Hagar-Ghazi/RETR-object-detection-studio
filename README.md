@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Streamlit App](https://retr-object-detection-studio-ryvtemx2nntyn58d7sigdh.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://retr-object-detection-studio-ryvtemx2nntyn58d7sigdh.streamlit.app/)
 
 <h3>🚀 Click the badge above to run the live application! 🚀</h3>
 
