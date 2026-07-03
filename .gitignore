@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+venv.bak/
+ENV/
+
+# Model weights and checkpoints (large binary files)
+*.pt
+*.pth
+*.onnx
+*.weights
+rtdetr-l.pt
+rtdetr-x.pt
+
+# Lightning AI & Roboflow workspace caches
+.lightning_studio/
+.roboflow/
+
+# Streamlit configurations (if machine-specific)
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# User-specific developer files
+*.log
+.vscode/
+.idea/
+
+# main file
+main.py
