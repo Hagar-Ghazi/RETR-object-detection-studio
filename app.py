@@ -117,7 +117,7 @@ st.markdown("""
 st.markdown("""
 <div class="header-card">
     <h1>RF-DETR Object Detection Studio</h1>
-    <p>Compare state-of-the-art DEtection TRansformer models (RF-DETR, RT-DETR, and DETR) with custom visual rendering, real-time metrics, and object-specific inspection.</p>
+    <p>Compare state-of-the-art DEtection TRansformer models (RF-DETR, RT-DETR and DETR) with custom visual rendering, real-time metrics and object-specific inspection</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -133,7 +133,7 @@ backend_options = [
 selected_backend = st.sidebar.selectbox(
     "Select Model Engine",
     backend_options,
-    help="RF-DETR runs Roboflow's model, RT-DETR runs Baidu's real-time model, and Original DETR runs the Facebook ResNet-50 baseline."
+    help="RF-DETR runs Roboflow's model, RT-DETR runs Baidu's real-time model and Original DETR runs the Facebook ResNet-50 baseline"
 )
 
 # Size selection (Not applicable to HF original DETR)
@@ -158,7 +158,7 @@ conf_threshold = st.sidebar.slider(
 )
 
 # Stylization parameters
-st.sidebar.markdown("### 🎨 Box Styling")
+st.sidebar.markdown("### Box Styling")
 box_thickness = st.sidebar.slider("Box Thickness (px)", 1, 5, 2)
 fill_alpha = st.sidebar.slider("Fill Opacity", 0.00, 0.50, 0.15, step=0.05)
 font_size = st.sidebar.slider("Label Font Size (pt)", 8, 24, 12)
@@ -181,7 +181,7 @@ input_source = st.radio(
     "Select Input Source",
     ["Upload Custom Image", "Try Sample Images"],
     horizontal=True,
-    help="Toggle between uploading your own photo or selecting one of our high-quality testing images."
+    help="Toggle between uploading your own photo or selecting one of our high-quality testing images"
 )
 
 image_to_process = None
@@ -265,7 +265,7 @@ if image_to_process is not None:
         *   **For Original DETR**: Install Transformers and timm:
             `pip install transformers timm`
         
-        **Alternative:** Switch to another model engine in the sidebar (e.g. **RT-DETR (Ultralytics)** or **Original DETR (HuggingFace)** which install very easily).
+        **Alternative:** Switch to another model engine in the sidebar (e.g. **RT-DETR (Ultralytics)** or **Original DETR (HuggingFace)** which install very easily)
         """)
     else:
         num_detections = len(detections)
