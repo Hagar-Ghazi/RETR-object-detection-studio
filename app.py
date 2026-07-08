@@ -22,7 +22,6 @@ model_manager = get_model_manager()
 # Set page config
 st.set_page_config(
     page_title="RF-DETR Detection Studio",
-    page_icon="🎯",
     layout="wide",
     initial_sidebar_state="expanded"
 )
