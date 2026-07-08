@@ -186,7 +186,7 @@ input_source = st.radio(
 
 image_to_process = None
 
-if input_source == "📂 Upload Custom Image":
+if input_source == "Upload Custom Image":
     uploaded_file = st.file_uploader(
         "Choose an image...",
         type=["jpg", "jpeg", "png", "webp"],
