@@ -22,7 +22,6 @@ model_manager = get_model_manager()
 # Set page config
 st.set_page_config(
     page_title="RF-DETR Detection Studio",
-    page_icon="🎯",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -117,7 +116,7 @@ st.markdown("""
 # Application Header
 st.markdown("""
 <div class="header-card">
-    <h1>🎯 RF-DETR Object Detection Studio</h1>
+    <h1> RF-DETR Object Detection Studio</h1>
     <p>Compare state-of-the-art DEtection TRansformer models (RF-DETR, RT-DETR, and DETR) with custom visual rendering, real-time metrics, and object-specific inspection.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -159,7 +158,7 @@ conf_threshold = st.sidebar.slider(
 )
 
 # Stylization parameters
-st.sidebar.markdown("### 🎨 Box Styling")
+st.sidebar.markdown("### Box Styling")
 box_thickness = st.sidebar.slider("Box Thickness (px)", 1, 5, 2)
 fill_alpha = st.sidebar.slider("Fill Opacity", 0.00, 0.50, 0.15, step=0.05)
 font_size = st.sidebar.slider("Label Font Size (pt)", 8, 24, 12)
@@ -322,7 +321,7 @@ if image_to_process is not None:
                 # Download Annotated Image
                 img_bytes = convert_image_to_bytes(annotated_img)
                 st.download_button(
-                    label="📥 Download Annotated Image",
+                    label="Download Annotated Image",
                     data=img_bytes,
                     file_name=f"detected_{selected_backend.split(' ')[0].lower()}.jpg",
                     mime="image/jpeg",
@@ -376,7 +375,7 @@ if image_to_process is not None:
                         )
                     with exp_col2:
                         st.download_button(
-                            label="👾 Download JSON",
+                            label=" Download JSON",
                             data=json_data,
                             file_name="detections.json",
                             mime="application/json",
