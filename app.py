@@ -116,7 +116,7 @@ st.markdown("""
 # Application Header
 st.markdown("""
 <div class="header-card">
-    <h1>🎯 RF-DETR Object Detection Studio</h1>
+    <h1>RF-DETR Object Detection Studio</h1>
     <p>Compare state-of-the-art DEtection TRansformer models (RF-DETR, RT-DETR, and DETR) with custom visual rendering, real-time metrics, and object-specific inspection.</p>
 </div>
 """, unsafe_allow_html=True)
