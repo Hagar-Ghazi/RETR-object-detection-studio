@@ -179,7 +179,7 @@ if "uploader_key" not in st.session_state:
 # Use radio selector to choose the active source exclusively
 input_source = st.radio(
     "Select Input Source",
-    ["📂 Upload Custom Image", "🌄 Try Sample Images"],
+    ["Upload Custom Image", "Try Sample Images"],
     horizontal=True,
     help="Toggle between uploading your own photo or selecting one of our high-quality testing images."
 )
@@ -367,7 +367,7 @@ if image_to_process is not None:
                     exp_col1, exp_col2 = st.columns(2)
                     with exp_col1:
                         st.download_button(
-                            label="📄 Download CSV",
+                            label="Download CSV",
                             data=csv_data,
                             file_name="detections.csv",
                             mime="text/csv",
